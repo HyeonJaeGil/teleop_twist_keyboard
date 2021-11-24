@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <package>
-  <name>teleop_twist_keyboard</name>
+  <name>teleop_keyboard</name>
   <version>1.0.0</version>
-  <description>Generic keyboard teleop for twist robots.</description>
+  <description>Generic keyboard teleop.</description>
 
-  <maintainer email="namniart@gmail.com">Austin Hendrix</maintainer>
+  <maintainer email="now9728@gmail.com">Jay Gil</maintainer>
 
   <license>BSD</license>
 
@@ -13,6 +13,6 @@
   <author>Graylin Trevor Jay</author>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <run_depend>geometry_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
   <run_depend>rospy</run_depend>
 </package>
